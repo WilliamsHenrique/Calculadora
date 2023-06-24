@@ -8,7 +8,7 @@ import Calculator from './components/Calculadora.vue'
 
 <style>
   body{
-    background: #31475e;
+    background: #285381;
     background-image: url(./image/image.jpg);
   }
 </style>

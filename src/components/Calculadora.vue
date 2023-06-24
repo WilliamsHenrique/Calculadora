@@ -55,12 +55,10 @@ export default {
 <template>
   <div class="p-3" style="max-width: 400px; margin: 50px auto; background-color: #234;">
 
-    <!-- Calculator Result -->
     <div class="w-full rounded m-1 p-3 text-end lead fw-bold text-white digitos">
       {{ calcValor || 0}}
     </div>  
 
-    <!-- Calculator Buttons -->
     <div class="row g-0">
       <div class="col-3" v-for="btn in calcNum">
         <div 
@@ -78,7 +76,7 @@ export default {
 
 <style scoped>
 .digitos{
-  background: rgba(16, 56, 88, 0.5);
+  background: rgba(23, 84, 134, 0.5);
   backdrop-filter: blur(10px);
   max-width: 350px;
   margin: 50px auto 0;
@@ -89,7 +87,7 @@ export default {
 
 .resultado:hover{
   cursor: pointer;
-  background: #4684c7;
+  background: #4490e2;
 }
 
 .operadores{
